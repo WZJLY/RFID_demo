@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rfid_demo.MainActivity">
+    <item
+        android:id="@+id/action_reLink"
+        android:orderInCategory="100"
+        android:title="端口设置"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_quit"
+        android:orderInCategory="100"
+        android:title="退出"
+        app:showAsAction="never" />
+</menu>
